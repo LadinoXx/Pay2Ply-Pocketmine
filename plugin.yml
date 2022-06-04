@@ -1,0 +1,17 @@
+#Proibido publicar esse plugin em outro repositório, caso queira compartilha-lo use o link desse repositório.
+
+name: Pay2Ply
+author: LadinoXx
+description: Plugin feito por ladino para loja Pay2Ply.
+main: LadinoXx\pay2ply\Main
+version: 1.0.0
+api: [4.0.0]
+
+commands:
+  pay2ply:
+   description: pay2ply setup
+   permission: pay2ply.perm
+permissions:
+  pay2ply.perm:
+    description: "pay2ply setup"
+    default: op
