@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/LadinoXx/Pay2Ply-Pocketmine
+build-by-default: true
+branches:
+- main
+projects:
+  Pay2Ply-Pocketmine:
+    path: ""
+...
