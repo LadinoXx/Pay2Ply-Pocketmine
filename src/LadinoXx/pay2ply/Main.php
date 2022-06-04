@@ -39,7 +39,7 @@ class OwnerTask extends Task
         if ($player instanceof Player) {
           try {
             $this->plugin->getSdk()->update($dsp->username, $dsp->id);
-            $this->getServer()->dispatchCommand(new ConsoleCommandSender(Server::getInstance(), Server::getInstance()->getLanguage()), str_replace("%username%"), $dsp->username, $dsp->command);
+            $this->getServer()->dispatchCommand(new ConsoleCommandSender(Server::getInstance(), Server::getInstance()->getLanguage()), str_replace("%username%", $dsp->username, $dsp->command));
             $player->sendTitle($this->plugin->config->get("title"));
             if ($this->plugin->config->get("message")) $this->getServer()->getLogger()->info(str_replace("{player}", $dsp->username, "§a[Pay2Ply] O proproduto {player} foi ativo."));
           } catch (Exception $e) {
