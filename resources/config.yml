@@ -1,0 +1,11 @@
+#digite aqui o token da sua loja
+token: ""
+
+resgatar-command:
+ command: resgatar
+ description: Use para resgatar seu vip 
+ aliases: 
+  - vip
+
+sucess-resgate: §l§a[§f!§a] §r§aSeu vip foi resgatado com sucesso!
+fail-resgate: §l§c[§f!§c] §r§aAparentemente você não comprou um vip, ou o pagamento ainda não foi aprovado.

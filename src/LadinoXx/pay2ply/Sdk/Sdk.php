@@ -6,7 +6,7 @@
 
 namespace LadinoXx\pay2ply\Sdk;
 
-use pocketmine\player\Player;
+use Exception;
 use pocketmine\Server;
 
 class Sdk {
