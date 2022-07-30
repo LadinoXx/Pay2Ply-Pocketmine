@@ -4,7 +4,7 @@ name: Pay2Ply
 author: LadinoXx
 description: Plugin feito por ladino para loja Pay2Ply.
 main: LadinoXx\pay2ply\Main
-version: 1.0.0
+version: 2.0.0
 api: [4.0.0]
 
 permissions:
